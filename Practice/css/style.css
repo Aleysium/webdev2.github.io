@@ -1,0 +1,30 @@
+h1 {
+    color:rgb(54, 121, 24);
+    background-color: rgb(255, 243, 221);
+}
+
+
+body {background-color: black;
+
+}
+
+p {color:tomato;
+
+}
+
+#container1 {
+    background-color: rgb(226, 215, 195);
+    border: tomato 5px dotted;
+    padding: 1cm;
+    margin: 1cm;
+}
+
+#container2 {
+    background-color: rgb(248, 217, 159);
+    border: tomato 5px dotted;
+    padding: 1cm;
+    margin: 1cm;
+}
+
+div {text-align: center;
+}
