@@ -14,10 +14,12 @@ a:hover{
 
 #nav{
    float: left;
-   width: 25%;
-   border: 3px solid lightblue;
+   width: 15%;
+   height: 2500px;
+
+   
 }
 #main{
-    margin-right: 20px;
-    
+    margin-left: 60px;
+    border-left: 15px;
 }
