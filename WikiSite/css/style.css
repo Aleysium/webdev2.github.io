@@ -9,17 +9,16 @@ a:hover{
 }
 
 #Contents{
-    border: midnightblue;
+    border:3px solid midnightblue;
 }
 
 #nav{
    float: left;
    width: 15%;
    height: 2500px;
+   background-color: rgb(238, 247, 249);
+   
 
    
 }
-#main{
-    margin-left: 60px;
-    border-left: 15px;
-}
+
