@@ -1,0 +1,23 @@
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+#Contents{
+    border: midnightblue;
+}
+
+#nav{
+   float: left;
+   width: 25%;
+   border: 3px solid lightblue;
+}
+#main{
+    margin-right: 20px;
+    
+}
