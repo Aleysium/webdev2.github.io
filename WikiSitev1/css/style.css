@@ -9,16 +9,49 @@ a:hover{
 }
 
 #Contents{
-    border:3px solid midnightblue;
+    border: 1px solid midnightblue;
+    width: 150px;
+    margin-left: 50px;
+    background-color: rgb(245, 255, 255);
+   padding: 15px;
+
 }
 
 #nav{
    float: left;
-   width: 15%;
+   width: 17%;
    height: 2500px;
-   background-color: rgb(238, 247, 249);
-   
-
+   background-color: rgb(245, 255, 255);
    
 }
 
+#NavInfo{
+    margin-left: -15px;
+}
+
+#Health{
+    text-indent: 15px;
+}
+
+#InfoPanel{
+    float: right;
+    width: 20%;
+    border: 1px solid midnightblue;
+    padding: 4px;
+}
+
+#topic{
+    margin-left: 250px;
+
+}
+
+h3{
+    background-color:darkseagreen;
+}
+
+h4{
+    background-color: darkseagreen;
+}
+#main{
+    margin-left: -40px;
+}
