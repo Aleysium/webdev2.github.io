@@ -5,7 +5,7 @@ ul{
     flex-direction:column
 }
 
-nav{
+#navbar{
     background-color:wheat;
     width: 150px;
     height: 400px;
@@ -14,18 +14,37 @@ nav{
     float: left;
     margin: 30px;
     font-family:Arial, Helvetica, sans-serif;
+    color: dimgray;
+}
+
+#shiba1{
+    float:right;
+}
+
+#shiba2{
+    float: right;
+    
+}
+
+#shiba3{
+    float: right;
+}
+h3{
+    display: fixed;
+    margin-left: 450px;
 }
 
 p{
     margin-top: 100px;
-    margin-right: 50px;
+    margin-left: 230px;
+    width: 550px;
 }
 
 
 li{
     padding: 10px;
     list-style: none;
-    
+    color: dimgray;
     
 }
 
@@ -42,19 +61,23 @@ body{
 .dropdown-menu{
     position: absolute;
     opacity: 0;
+    background-color: darksalmon;
 
 }
+
+
 
 
 .dropdown:hover .dropdown-menu{
     opacity: 1;
     transition: .5s;
+    
 }
 
 .dropdown{
     position: relative;
     display: block;
-
+    
 }
 
 h1{
@@ -64,3 +87,17 @@ h1{
     background-color: antiquewhite;
     
 }
+
+
+@media (max-width: 768px){
+
+    nav{
+        font-size: 30px;
+    }
+
+
+}
+        
+
+
+

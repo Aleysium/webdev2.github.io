@@ -1,0 +1,15 @@
+ul{
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+nav{
+    background-color: bisque;
+}
+
+li{
+    padding: 10px;
+    list-style: none;
+}
