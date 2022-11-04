@@ -4,16 +4,19 @@
 }
 
 #gallery1{
+    display: grid;
     grid-template-columns: auto auto auto;
     
 }
 
 #gallery2{
+    display: grid;
     grid-template-columns: auto auto auto;
     
 }
 
 #gallery3{
+    display: grid;
     grid-template-columns: auto auto auto;
     columns: 3 auto;
 }
