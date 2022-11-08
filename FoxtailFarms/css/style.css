@@ -26,26 +26,29 @@ body {
   border-color: #2e4c83;
 }
 
-header {
+.header-bottom {
   border-bottom: 2px solid #2e4c83;
-  display:flex;
-  align-items: center;
-  justify-content: space-between;
-  padding:50px;
-  background-color:#f8feff;
-  color:#2e4c83;
+  align-items: right;
+  justify-content:right;
+  padding:25px;
+  background-color:#e1a177;
+  color:#ffff;
 }
 .header-top{
-  width:15%;
+  width: 20%;
+  align-items: left;
+  justify-content: left;
+  display: left;
 }
+
+  
+
 nav {
   border-bottom: 2px solid #2e4c83;
   background-color:#f8feff;
-  position:sticky;
   top:0px;
   box-shadow: 0px 3px 3px 0px rgb(0,0,0,0.3);
-  display:flex;
-  justify-content: space-between;
+  display:center;
   z-index: 99;
   font-weight: 500;
 }
@@ -60,7 +63,7 @@ nav li {
   list-style-type: none;
 }
 nav a {
-  color:#192e55;
+  color:#000000;
   text-decoration: none;
   padding:5px 20px;
   padding-left:2.5px;
@@ -71,7 +74,7 @@ nav a::before {
   padding-right:5px;
 }
 nav a:hover {
-  background-color: #192e55;
+  background-color: #e1a177;
   color:#f8feff;
 }
 .nav-contact {
@@ -82,7 +85,7 @@ nav a:hover {
   width:33%;
 }
 .nav-contact:hover {
-  color:#192e55;
+  color:#000000;
 }
 .nav-contact ion-icon{
   margin-right:10px;
@@ -122,12 +125,14 @@ main {
 /* contents: */
 
 .content {
-  background-color: #f8feff;
-  border:2px solid #2e4c83;
+  background-color: #ffffff;
+  border:2px solid #000000;
   padding:15px;
-  color:#2e4c83;
+  color:#e1a177;
   box-shadow: 2px 3px 1px 1px rgba(0,0,0,0.3);
   margin:50px 0px;
+  width: 300px;
+  height: 500px;
 }
 .content-header {
   font-size: 42pt;
@@ -152,17 +157,28 @@ main {
   padding:20px;
 }
 
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  
+}
+
+.row:after {
+  display: table;
+  clear: both;
+}
 
 /* Footer ~~~~~~~ */
 .footer-hat {
   height:30px;
-  background-color: #f8feff;
-  border-top:2px solid #2e4c83;
+  background-color: #e1a177;
 }
 footer {
-  background-color: #f8feff;
+  background-color: #e1a177;
   padding:25px;
-  border-top:2px dashed #2e4c83;
+  color: #ffffff;
+  border-top:2px  #000000;
   box-sizing: border-box;
   display:flex;
 }
@@ -193,7 +209,6 @@ footer h4 {
 .footer-feet {
   background-color: #f8feff;
   height:40px;
-  border-top: 2px dashed #2e4c83;
 
   display:flex;
   align-items: center;
@@ -218,3 +233,5 @@ footer h4 {
   font-family: "Bebas Neue";
   font-weight: bold;
 }
+
+
