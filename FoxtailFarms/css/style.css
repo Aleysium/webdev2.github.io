@@ -20,23 +20,26 @@ a {
 body {
   margin:0;
   color:#2e4c83;
-  border-color: #2e4c83;
+  border-color: #000000;
 }
 
 .header-bottom {
   border-bottom: 2px solid #2e4c83;
   align-items: right;
+  display: right;
   justify-content:right;
   padding:25px;
   background-color:#e1a177;
   color:#ffff;
   font-family: "Lobster";
+  
 }
 .header-top{
   width: 20%;
+  display: flex;
   align-items: left;
   justify-content: left;
-  display: left;
+
   font-family: "Lobster";
 }
 
@@ -136,7 +139,7 @@ main {
   font-family: "Montserrat";
 }
 .content-header {
-  font-size: 42pt;
+  font-size: 35pt;
   margin:0;
   text-align: center;
   padding:25px;
@@ -158,7 +161,7 @@ main {
   padding:20px;
 }
 
-.column {
+.col {
   float: left;
   width: 33%;
   padding: 10px;
