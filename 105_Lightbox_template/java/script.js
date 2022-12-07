@@ -19,7 +19,18 @@ let coffeeimage2 = document.getElementById('coffeeimage2');
 let coffeeimage3 = document.getElementById('coffeeimage3');
 let coffeeimage4 = document.getElementById('coffeeimage4');
 
+
+coffeeimage1.onclick = openLightbox;
+coffeeimage2.onclick = openLightbox;
+coffeeimage3.onclick = openLightbox;
+coffeeimage4.onclick = openLightbox;
+
+
 //Closer
+function closeLightbox(){
+    lightboxContainer.classList.remove('display');
+    lightbox.src = '';
+}
 
 lightboxCloser.onclick = closeLightbox;
 lightboxBackground.onclick = closeLightbox;
