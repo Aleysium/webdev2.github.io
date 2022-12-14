@@ -1,0 +1,26 @@
+
+
+body {
+    background-image: url("assets/Images/background.jpeg") ;
+    background-color: rgb(22, 22, 22);
+} 
+
+#submit {
+    background-color: rgba(0, 64, 255, 0.957);
+    color: aliceblue;
+}
+
+#lname {
+    background-color: rgb(68, 69, 71);
+    color: rgb(39, 39, 39);
+    
+}
+
+#emailsubmit {
+    margin-left: 440px;
+}
+
+#gallery {
+margin-top: 800px;
+}
+
